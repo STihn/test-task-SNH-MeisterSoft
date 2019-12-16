@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+h1 {
+    color: white;
+    font-size: 34px;
+    white-space: nowrap;
+}
+h2 {
+    text-align: center;
+    font-weight: 700;
+    padding-top: 30px;
+}
+/* Header */
+.head {
+    max-width: 1920px;
+    height: 40px;
+    background-color: rgba(123, 37, 142, 1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.head__title {
+    padding: 13px 17px;
+    color:white;
+}
+.wrapper {
+    background-color:rgba(54, 54, 54, 1);
+    height: 440px;
+    width: 100%;
+}
+.wrap {
+    display: flex;
+}
+.products__title {
+    margin-top: 285px;
+    padding-left: 50px;
+    padding-right:50px;
+}
+.products__main {
+    margin-top: 140px;
+    width: 1030px;
+    display: flex;
+    justify-content: space-around;
+}
+.products__Vector {
+    width: 257px;
+}
+.item1 {
+    height: 170px;
+    width: 257px;
+    background-color: #A01F1F;
+    border-radius: 5px 5px 0 0;
+}
+.products__TestIT {
+    width: 257px;
+}
+.item2 {
+    height: 170px;
+    width: 257px;
+    background-color: #218593;
+    border-radius: 5px 5px 0 0;
+}
+.products__BIMeister {
+    width: 257px;
+}
+.item3 {
+    height: 170px;
+    width: 257px;
+    background-color: #0E3B7E;
+    border-radius: 5px 5px 0 0;
+}
+.products__text {
+background-color: white;
+box-shadow: 0 14px 18px rgba(0, 0, 0, 0.25);
+}
+.products__text p {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 20px 30px;
+}
